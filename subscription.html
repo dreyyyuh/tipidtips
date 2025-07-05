@@ -1,0 +1,148 @@
+<!--subscription page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Centsibly - Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Inter', sans-serif;
+                background-color: #fff7f2;
+                text-align: center;
+            }
+
+            .navbar {
+                justify-content: center;
+                display: flex;
+                text-align:center ;
+                background-color: #f79d1f;
+                padding: 20px;
+                align-items: center;
+            }
+
+            .navbar a {
+                color: white;
+                margin: 0 25px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .navbar a:hover {
+                text-decoration: solid;
+                text-decoration: underline;
+                color: #D3D3D3;
+            }
+            
+            .logo {
+                position: absolute;
+                width: 40px;
+                margin-right: 1dvh;
+                left: 20px;
+                top: 10px;
+            }
+
+            .plan {
+                background: #f79d1f;
+                border: 1px solid black;
+                border-radius: 10px;
+                width: 300px;
+                padding: 15px;
+                text-align: center;
+            }
+
+            .plan-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <header>
+        <div class="navbar">
+                <img src="images/logo.png" alt="Centsibly Logo" class="logo">
+                <nav>
+                    <a href="homepage.html">Home</a>
+                    <a href="expense.html">Expenses</a>
+                    <a href="calendar.html">Calendar</a>
+                    <a href="spending-insights.html">Spending Insights</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="about us.html">About Us</a>
+                </nav>
+            </div>
+
+            <div>
+                <br>
+                <h1>Pick the best plan for you</h1>
+                <i>Your're currently on the Free plan - upgrade, downgrade, or cancel any time.</i>
+            </div>
+
+            <br><br><br>
+
+            <div class="plan-grid">
+                <div>
+                    <h2 style="color: grey;">Basic</h2>
+                    <div class="plan">
+                        <h1>₱0</h1>
+                        <i>/month</i><br>
+                        <button type="button" style="background-color: #f3f3f3; color: grey; border-radius: 5px; border: 5cap; width: 200px; height: 20px;">Get Started</button>
+                        <div style="text-align: justify; font-size: small;">
+                            <p>✔  Log up <b>8 expenses per month</b></p>
+                            <p>✔  Access to <b>daily goal tracking</b></p>
+                            <p>✔  Basic <b>spending insights</b></p>
+                            <p>✔  Upload <b>1 photo per expense</b></p>
+                            <p>✔  View <b>monthly calendar log indicators</b></p>
+                            <p>✔  Access to <b>basic encouragement messengers</b></p>
+                            <p>✔  <b>Ads enabled</b></p>
+                            <p>✔  Limited access to <b>community feed</b> (view only, no posting)</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="color: grey;">Standard</h2>
+                    <div class="plan">
+                        <h1>₱49</h1>
+                        <i>/month</i><br>
+                        <button type="button" style="background-color: #f3f3f3; color: grey; border-radius: 5px; border: 5cap; width: 200px; height: 20px;">Get Started</button>
+                        <div style="text-align: justify; font-size: small;">
+                            <p>✔  Log up to <b>150 expenses per month</b></p>
+                            <p>✔  Access to <b>advanced insights</b> (daily average, total overspending, goal analysis)</p>
+                            <p>✔  <b>Photo uploads</b> per expense</p>
+                            <p>✔  <b>Editable logs</b> + expense reminders</p>
+                            <p>✔  Full access to <b>community feed</b> (view, like, post, comment)</p>
+                            <p>✔  <b>Ad-free experience</b></p>
+                            <p>✔  <b>Weekly spending summary reports</b></p>
+                            <p>✔  Access to <b>spending streak tracker</b></p>
+                            <p>✔  Priority support via email</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="color: grey;">Premium</h2>
+                    <div class="plan">
+                        <h1>₱145</h1>
+                        <i>/month</i><br>
+                        <button type="button" style="background-color: #f3f3f3; color: grey; border-radius: 5px; border: 5cap; width: 200px; height: 20px;">Get Started</button>
+                        <div style="text-align: justify; font-size: small;">
+                            <p>✔  <b>Unlimited expense logs</b></p>
+                            <p>✔  <b>Advanced analytics:</b> bar graphs, trends, monthly summaries</p>
+                            <p>✔  Personalized <b>financial advice & encouragement</b></p>
+                            <p>✔  <b>Log streak badges</b> and gamified rewards</p>
+                            <p>✔  Exportable <b>expense history (PDF)</b></p>
+                            <p>✔  Access to <b>cloud sync & data backup</b></p>
+                            <p>✔  Access to <b>all motivational messages</b> + calendar goal streaks</p>
+                            <p>✔  Full <b>app preferences control</b> (notifications, currency, etc.)</p>
+                            <p>✔  Premium badge on profile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+    </header>
+</html>

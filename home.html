@@ -1,0 +1,195 @@
+<!--home-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Centsibly - Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Inter', sans-serif;
+                background-color: #fff7f2;
+            }
+
+            .navbar {
+                justify-content: center;
+                display: flex;
+                text-align:center ;
+                background-color: white;
+                padding: 20px;
+                align-items: center;
+            }
+
+            .navbar a {
+                color: #f79d1f;
+                margin: 0 25px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .navbar a:hover {
+                text-decoration: solid;
+                text-decoration: underline;
+                color: #D3D3D3;
+            }
+            
+            .logo {
+                position: absolute;
+                width: 40px;
+                margin-right: 1dvh;
+                left: 20px;
+                top: 10px;
+            }
+            
+            .banner {
+                background-color: #f79d1f;
+                color: white;
+                text-align: center;
+                padding: 15px;
+            }
+            
+            .main-content {
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                gap: 20px;
+                margin: 20px;
+            }
+
+            .feed, .sidebar {
+                background-color: white;
+                padding: 15px;
+                border: 1px solid #ccc;
+            }
+
+            .share-box {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                background-color: #fff;
+            }
+
+            .profile-pic {
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            .share-box input {
+                flex: 1;
+                padding: 10px;
+                margin-right: 10px;
+            }
+
+            .share-box button {
+                padding: 10px 15px;
+            }
+
+            .post {
+                margin-bottom: 15px;
+            }
+
+            .video-placeholder {
+                height: 200px;
+                background-color: #eee;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #555;
+                margin-top: 10px;
+            }
+
+            .ad {
+                background-color: #fff7e6;
+                border: 1px solid #f0c36d;
+                padding: 15px;
+                text-align: center;
+            }
+
+            .ad img {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .premium-btn {
+                background-color: #f79d1f;
+                color: white;
+                border: 1px solid black;
+                padding: 10px;
+                margin: 10px 0;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <img src="images/logo.png" alt="Centsibly Logo" class="logo">
+                <nav>
+                    <a href="homepage.html">Home</a>
+                    <a href="expense.html">Expenses</a>
+                    <a href="calendar.html">Calendar</a>
+                    <a href="spending-insights.html">Spending Insights</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="about us.html">About Us</a>
+                </nav>
+            </div>
+            
+
+            <div class="banner">
+                <h1>Centsibly - It's Just Make Cents</h1>
+                <p>Track Your Spending, One Peso at a Time</p>
+            </div>
+        </header>       
+        <body>
+            <div class="main-content">
+                <div class="feed">
+                    <div class="share-box">
+                        <img src="images/awra.jpg" alt="User" class="profile-pic">
+                        <input type="text" placeholder="Share your Centsibly achievements...">
+                        <button>Post</button>
+                    </div>
+
+                    <div class="post">
+                        <img src="images/profile3.jpg" alt="User" class="profile-pic">
+                        <h3>Centsibly</h3>
+                        <p>Centsibly Feature Highlight: Monthly Calendar View</p>
+                        <div class="video-placeholder">
+                            ▶ Video 
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <img src="images/profile1.jpeg" alt="User" class="profile-pic">
+                        <h3>Centsibly</h3>
+                        <p>The “₱50 Rule”: A Trick That Helps You Think Twice Before Buying</p>
+                    </div>
+
+                    <div class="post">
+                        <img src="images/profile2.jpg" alt="User" class="profile-pic">
+                        <h3>Centsibly</h3>
+                        <p>How to Set Realistic Budget Goals (And Actually Stick to Them)</p>
+                    </div>
+                </div>
+
+                <aside class="sidebar">
+                    <div class="ad">
+                        <h4>Upgrade to Premium now to unlock more features!</h4>
+                        <div class="ad-image">
+                            <img style="border: 1px solid black;" src="images/ads.png" alt="ads">
+                        </div>
+                        <a href="subscription.html"><button class="premium-btn">Choose a plan now!</button></a>
+                        
+                        <p>Choose the plan that suits your needs best</p>
+                    </div>
+                </aside>
+            </div>
+        </body>
+    
+</html>
